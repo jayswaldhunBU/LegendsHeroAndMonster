@@ -25,7 +25,7 @@ public class CommonCell extends Cell {
     public String toString(){
         String ret;
         if(!this.piece.getSymbol().equals("X")){
-            ret = " ";
+            ret = ConsoleColorsCodes.BLUE_BACKGROUND+" "+ConsoleColorsCodes.RESET;
         }
         else{
             ret = ConsoleColorsCodes.GREEN_BOLD_BRIGHT+"X"+ ConsoleColorsCodes.RESET;

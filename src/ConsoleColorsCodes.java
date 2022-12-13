@@ -13,5 +13,9 @@ public class ConsoleColorsCodes {
     public static final String YELLOW_BOLD_BRIGHT = "\033[1;93m";// yellow bold color
     public static final String BLUE_BOLD_BRIGHT = "\033[1;94m";  // blue color
 
+    public static final String BLACK_BACKGROUND = "\033[40m";  // BLACK
+    public static final String RED_BACKGROUND = "\033[41m";    // RED
+    public static final String BLUE_BACKGROUND = "\033[44m";   // BLUE
+    public static final String PURPLE_BACKGROUND = "\033[45m";    // Purple
 }
 

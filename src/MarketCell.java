@@ -26,7 +26,7 @@ public class MarketCell extends Cell {
     public String toString(){
         String ret;
         if(!this.piece.getSymbol().equals("X")){
-            ret = "M";
+            ret = ConsoleColorsCodes.PURPLE_BACKGROUND+"M"+ConsoleColorsCodes.RESET;
         }
         else{
             ret = ConsoleColorsCodes.GREEN_BOLD_BRIGHT+"X"+ ConsoleColorsCodes.RESET;

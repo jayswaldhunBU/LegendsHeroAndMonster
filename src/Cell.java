@@ -6,7 +6,7 @@ public class Cell{
     //Initialize the null piece in the cells
     protected Cell(){
         this.piece= new NullPiece();
-        cellString="";
+        cellString=" ";
     }
     protected Cell(String cellString){
 

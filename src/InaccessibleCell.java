@@ -13,7 +13,7 @@ public class InaccessibleCell extends Cell {
     }
 
     public String toString(){
-        String ret = "I";
+        String ret = ConsoleColorsCodes.RED_BACKGROUND+"I"+ConsoleColorsCodes.RESET;
         return ret;
     }
 

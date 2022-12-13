@@ -49,7 +49,7 @@ public class RPGBoard extends Board {
         for(int i = 0; i<getBoardRows(); i++){
             for(int j=0; j<getBoardCols();j++)
             {
-                System.out.print("| " + this.board[i][j].toString() + " |" + " ");
+                System.out.print("|" + this.board[i][j].toString() + "|" + " ");
             }
             System.out.println(" ");
         }
